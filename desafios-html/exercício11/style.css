@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84E1AD;
+    text-align: center;
+}
+head {
+    padding: auto;
+}
+h1 {
+    color: white;
+    text-align: center;
+    background-color: #1a5c38;
+    margin: solid;
+}
+nav {
+    background-color: #1A5C38;
+    color: rgb(16, 8, 8);
+    te
+}
+main {
+
+}
+article {
+    background-color: white;
+    width: 400px;
+    margin: auto;
+    padding: 1px 10px;
+}
+aside {
+background-color: #C5EBD6;
+}
+h2 {
+    background-color:#C8ECD8;
+    color: #236340;
+    font-family: idroid;
+}
+h3 {
+    background-color:#2FA866;
+    color: white;
+}
+footer {
+    background-color:#1A5C38;
+    color: white;
+    text-align: center;
+}
+ol {
+    font-family: Arial, Helvetica, sans-serif;
+}
