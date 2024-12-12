@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tbalas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+        thead, tfoot {
+            background-color: rgb(58, 58, 58);
+            color: white;
+        }
+        
+        table > tr > th {
+            position: sticky;
+            top: auto;
+            background-color:rgb(58, 58, 58);
+        }
+
+        tbody > tr:nth-child(even) {
+            background-color: gold;
+        }
+        
+        tbody > tr:nth-child(odd) {
+            background-color: lightgray;
+        }
+
+        td.num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de Tabelas Grandes</h1>
+    <table>
+        <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
+            </tr>  
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 873 064</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9.557.071</td>
+            </tr>
+            <tr>
+                <td>piauí</td>
+                <td class="num">3.015.268</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td class="num">4.144.597</td>
+            </tr>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de janeiro</td>
+                <td class="num">17 264 943</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 873 064</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">9.557.071</td>
+            </tr>
+            <tr>
+                <td>piauí</td>
+                <td class="num">3.015.268</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td class="num">0000</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste sequi dicta nemo cum rerum neque, iure, totam, perspiciatis ratione dolorum asperiores? Fuga maiores provident optio ut blanditiis magnam cupiditate temporibus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, voluptatibus. Reprehenderit expedita in exercitationem sit beatae. Possimus soluta placeat autem velit repudiandae, quibusdam aspernatur labore totam laudantium deleniti debitis <doloribus class="lo"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, atque! Quo nesciunt porro est facilis corrupti libero similique tempore provident iusto. Natus sequi fugit, harum reiciendis neque amet deserunt obcaecati. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptate officia ea unde a expedita quos vel, cumque nesciunt ab vero delectus quod, provident et optio doloremque rerum distinctio aliquam? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam est neque, possimus ad ab illum, itaque nulla alias doloremque expedita sed officia recusandae quod officiis accusantium exercitationem delectus quas quam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium architecto saepe incidunt ex, dolorum, ullam quia qui necessitatibus quaerat nam molestiae cum vitae non enim adipisci totam, aperiam sunt blanditiis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis labore, illum dolorem vel, natus aperiam impedit voluptate ex magni numquam, fugiat non provident facere beatae qui porro saepe aspernatur accusantium.</doloribus> Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima repellendus asperiores natus ipsa. Cumque facere est ipsam, dolorem nihil enim et? Voluptatum nesciunt consequuntur quisquam laborum a, quam hic quasi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quo, earum corrupti officiis quis deleniti illum fugiat eaque dolorum modi magnam temporibus itaque voluptas rerum iusto obcaecati asperiores quod explicabo alias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse recusandae fuga rerum earum modi aut nostrum perspiciatis vero cum omnis dolores sequi obcaecati a, totam quaerat suscipit, nisi aspernatur labore! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam, neque. Nam voluptatibus, sunt voluptas veritatis praesentium vitae? Quo vitae sunt eveniet culpa consequuntur mollitia velit, suscipit nam expedita tempora maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, at dolor? Consequatur perspiciatis praesentium deleniti consequuntur, at architecto est a voluptatem iste facere minus vitae soluta, amet similique porro sit!</p>
+</body>
+</html>
